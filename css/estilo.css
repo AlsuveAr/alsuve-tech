@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	background: url('../img/banner.jpg') no-repeat center;
+  	background-size: cover;
+  	min-height: 100vh;
+}
+
+
+.header .navbar .bg-trans {
+  background-color: transparent;
+  
+}
+
+.bg-trans {
+	transition: all 1s ease;
+}
+
+
+.leading-text {
+	color: white;
+ 	text-align:center;
+ 	padding-top: 15%;
+
+}
+.portafolio {
+	background-color: gray;
+	color: white;
+	min-height: 100vh;
+}
+
+.img {
+	width: 100%;
+}
+
+.muestra {
+	width: 50px;
+	height: 100px;
+	margin-bottom: 50px;
+}
+.center  {
+	text-align: center;
+}

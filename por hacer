@@ -1,0 +1,52 @@
+ideas para la pagina :
+navbar 
+1-transparente al inicio y que luego se aparesca con color de fondo
+2-hacer translucido el fondo del navbar
+3-que se mantenga mietras bajamos  (fixed)
+4-mantener los links a la derecha
+
+Para la imagen (landing) 
+1-hacer que se vea despues de un segundo (antes color negro)
+2-centrar automaticamente el texto, botones, slogan
+3-Titulo y cambiar la fuente y color  (Se podria utilizar la fuente de laravel)
+
+
+Contenido
+1-Parrafo1: Hacer la info de bienvenida (Titulos) <Bienbenidos a alsuve-tech/alweb somos .... y x>
+2-Parrafo2: El servicio que se ofrece 
+3-Cambiar la fuente, tamaño y color
+4-Que el contenido sea del tamaño de la imagen
+5-Colocar las imagenes en circulos u otro
+
+
+Portafolio
+1-Corregir detalles
+2-Dos columnas en lugar de 3
+3-que la imagen tome el tamaño del boton
+4-Cuando reciba focus hacer desplegar una caratula 
+	1- "Hacer con JS"
+	2- Nombre del la pag y su preview(btn) y link (btn)
+5-Cuando despliegue:
+	1-opcion- montar carrusel con capturas del modelo
+	2-un botoncito de cerrar (sutil)
+
+
+
+Contactanos
+1-formulario:
+	1-nombre del cliente
+	2-correo electronico
+	3-descripcion de su proyecto
+	4-check-box con las opciones disponibles (las que podemos manejar)
+
+Pie de pag suculento
+1-todas las redes sociales que no tenemos
+
+
+Hacer Logo (ALweb) (AlsuveTech)
+
+
+En lo que todo esto este terminado  (Version Portamicri-1):
+1-Hacer un mini chat para atender al cliente tipo arigato-studio, sphere, airtm
+2-Asociar a una api con los comentarios de nuestros clientes
+3-Hacer el logo animado
