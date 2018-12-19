@@ -6,9 +6,10 @@
 	<title>Portafolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="css/hover.css" rel="stylesheet" media="all">
 </head>
 <body>
-	<header class="header">
+	<header >
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-trans" id="menu">
 		  	<a class="navbar-brand" href="#">
 			    <img src="" width="30" height="30" class="d-inline-block align-top" alt="log">
@@ -19,17 +20,22 @@
 		  	</button>
 		  	<div class="collapse navbar-collapse justify-content-end text-center" id="navbarNavAltMarkup">
 		    	<div class="navbar-nav">
-		      		<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-		      		<a class="nav-item nav-link" href="#">Features</a>
-		      		<a class="nav-item nav-link" href="#portafolio">Nuestros trabajos</a>
+		      		<a class="nav-item nav-link active hvr-grow-rotate" href="#">Home <span class="sr-only">(current)</span></a>
+		      		<a class="nav-item nav-link  hvr-grow-rotate" href="#">Features</a>
+		      		<a class="nav-item nav-link hvr-grow-rotate" href="#portafolio">Nuestros trabajos</a>
 		    	</div>
 		  	</div>
 		</nav>
-
-		<div class="leading-text">
-			<h1>Alsuve-Tech</h1>
-			<h3>Primero lo primero</h3>
+		<div id="header">
+			
+				<div class="leading-text">
+					<h1>Alsuve-Tech</h1>
+					<h3>Primero lo primero</h3>
+				</div>	
+			
+			
 		</div>
+		
 	</header>
 	
 	<br>
@@ -100,8 +106,8 @@
 	</div>   
 	<br> 
 	<br> 
-	<div class="portafolio" id="portafolio">
-		<div class="container-fluid">
+		<div class="portafolio" id="portafolio">
+		<div class="container">
 			<div class="d-flex justify-content-center">
 				<div class="text-center">
 					<br>
@@ -111,55 +117,117 @@
 			</div>
 			<div class="d-flex justify-content-around">
 				<div class="row align-items-center">
-					<div class="col-12 col-md-6" >
-						<a href="#portafolio" id="porone" data-toggle="modal" data-target="#expandete">
-							<img src="img/cod.jpg"  width="600px" height="300px" >
-						</a>
-					</div>
+					<!--Primer-->
 					<div class="col-12 col-md-6">
-						<a href="#portafolio" data-toggle="modal" data-target="#expandete2">
-							<img src="img/codmin.jpg" width="600px" height="300px" >
-						</a>
+						<div class="btn01">
+							<img src="img/cod.jpg" >
+							<div class="ovrly"></div>
+							<div class="buttons">
+								<a href="#" class="fa fa-link"></a>
+                                <a href="#portafolio" class="fa fa-search" data-toggle="modal" data-target="#Primer"></a>
+							</div>
+						</div>
+					</div>
+					<!--Segundo-->
+					<div class="col-12 col-md-6">
+						<div class="btn02">
+							<img src="img/plant.jpg" >
+							<div class="ovrly"></div>
+							<div class="buttons">
+								<a href="#" class="fa fa-link"></a>
+                                <a href="#portafolio" class="fa fa-search" data-toggle="modal" data-target="#Segundo"></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 			<br>
 			<div class="d-flex justify-content-around">
 				<div class="row align-items-center">
+					<!--Tercero-->
 					<div class="col-12 col-md-4">
-						<a href="#portafolio">
-							<img src="img/codmin.jpg" class="img-fluid" width="375px" height="250px" >
-						</a>
+						<div class="btn03">
+							<img src="img/plant.jpg" >
+							<div class="ovrly"></div>
+							<div class="buttons">
+								<a href="#" class="fa fa-link"></a>
+                                <a href="#" class="fa fa-search" data-toggle="modal" data-target="#Tercero"></a>
+							</div>
+						</div>
 					</div>
+					<!--Cuarto-->
 					<div class="col-12 col-md-4">
-						<a href="#portafolio">
-							<img src="img/banner.jpg" class="img-fluid" width="375px" height="250px" >
-						</a>
+						<div class="btn04">
+							<img src="img/banner.jpg" class="img-fluid">
+							<div class="ovrly"></div>
+							<div class="buttons">
+								<a href="#" class="fa fa-link"></a>
+                                <a href="#" class="fa fa-search" data-toggle="modal" data-target="#Cuarto"></a>
+							</div>
+						</div>
 					</div>
+					<!--Quinto-->
 					<div class="col-12 col-md-4">
-						<img src="img/keyboard.jpg" class="img-fluid" width="375px" height="250px" >
+						<div class="btn05">
+							<img src="img/keyboard.jpg" class="img-fluid">
+							<div class="ovrly"></div>
+							<div class="buttons">
+								<a href="#" class="fa fa-link"></a>
+                                <a href="#" class="fa fa-search" data-toggle="modal" data-target="#Quinto"></a>
+                                hola	
+							</div>
+						</div>
+						<!--<img src="img/keyboard.jpg" class="img-fluid" width="375px" height="250px" >-->
 					</div>
 				</div>
 			</div>
 			<br>
+			
 		</div>
 		<br>
 		<!-- Modal -->
-		<div class="modal fade bd-example-modal-lg" id="expandete" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<!--Primer-->
+		<div class="modal fade bd-example-modal-lg" id="Primer" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  	<div class="modal-dialog modal-lg">
+		    	<div class="modal-content">
+		      		<img src="img/cod.jpg" class="img-fluid" width="auto" height="auto">
+		    	</div>
+		  	</div>
+		</div>
+		<!--Segundo-->
+		<div class="modal fade bd-example-modal-lg" id="Segundo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		  <div class="modal-dialog modal-lg">
 		    <div class="modal-content">
-		      <img src="img/cod.jpg" class="img-fluid" width="auto" height="auto">
+		      <img src="img/plant.jpg" class="img-fluid" width="auto" height="auto">
 		    </div>
 		  </div>
 		</div>
-		<div class="modal fade bd-example-modal-lg" id="expandete2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<!--Tercero-->
+		<div class="modal fade bd-example-modal-lg" id="Tercero" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		  <div class="modal-dialog modal-lg">
 		    <div class="modal-content">
-		      <img src="img/codmin.jpg" class="img-fluid" width="auto" height="auto">
+		      <img src="img/plant.jpg" class="img-fluid" width="auto" height="auto">
 		    </div>
 		  </div>
 		</div>
-		<!--<div class="modal fade" id="expandete" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<!--Cuarto-->
+		<div class="modal fade bd-example-modal-lg" id="Cuarto" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <img src="img/plant.jpg" class="img-fluid" width="auto" height="auto">
+		    </div>
+		  </div>
+		</div>
+		<!--Quinto-->
+		<div class="modal fade bd-example-modal-lg" id="Quinto" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <img src="img/plant.jpg" class="img-fluid" width="auto" height="auto">
+		    </div>
+		  </div>
+		</div>
+		<!--
+		<div class="modal fade" id="expandete" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 		  	<div class="modal-dialog modal-dialog-centered" role="document">
 		    	<div class="modal-content modal-lg">
 		      	<div class="modal-body">
