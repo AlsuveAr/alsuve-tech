@@ -1,93 +1,121 @@
 <?php
-	$titulo= "Portafolio";
-	require("plantillas/doc-start.inc.php");
-	//require("plantillas/navbar.inc.php");
-	//require_once("app/config.inc.php");
+require_once("app/config.inc.php");
+$titulo= "Al-Tech";
+require("plantillas/doc-start.inc.php");
+require("plantillas/navbar.inc.php");
 ?>	
-	<header>
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-trans" id="menu">
-		  	<a class="navbar-brand" href="#">
-			    <img src="" width="30" height="30" class="d-inline-block align-top" alt="log">
-			    Alsuve Tech
-		  	</a>
-		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    	<span class="navbar-toggler-icon"></span>
-		  	</button>
-		  	<div class="collapse navbar-collapse justify-content-end text-center" id="navbarNavAltMarkup">
-		    	<div class="navbar-nav">
-		      		<a class="nav-item nav-link active hvr-grow-rotate" href="#">Home <span class="sr-only">(current)</span></a>
-		      		<a class="nav-item nav-link  hvr-grow-rotate" href="#">Features</a>
-		      		<a class="nav-item nav-link hvr-grow-rotate" href="#portafolio">Nuestros trabajos</a>
-		    	</div>
-		  	</div>
-		</nav>
-	</header>
 	<section>
 		<div id="header" class="animated fadeIn delay-1s">
 			<div class="leading-text animated fadeIn delay-3s">
-				<h1>Alsuve-Tech</h1>
+				<h1 class="titu">All Code Tech</h1>
 				<h3>Primero lo primero</h3>
 			</div>	
 		</div>
 	</section>
-	<br>
-	<br>
-	<br>
-	<div class="pading"> 
-		<div class="container">
-			<div class="row"> 
-				<div class="col-sm-6"> 
-					<img src="img/codmin.jpg"  class="img-fluid d-inline-block align-top wow fadeInUp" alt="log"> 
+	<div class="pading somos"> 
+		<br>
+		<br>
+		<br>
+
+		<!-- //////////////// QUIENES SOMOS ////////////////////// -->
+
+		<div class="container border">
+			<div class="row border"> 
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border wow fadeInUp"> 
+					<img src="img/team4.png" data-wow-delay="5s" class="img-fluid rounded mt-5 mr-5 ml-5 mb-5" alaing="center" alt="log"> 
 				</div>
-
-				<div class="col-sm-6"> 
-					<p class="wow fadeInRight delay-1s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-				LUn doasadsafsit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-				LUn doasadsafsit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				</p> 
-				</div>
-			</div>
-		 </div>
-	</div>    
-	<br>
-	<br>
-	<br>
-	<div class="pading"> 
-		<div class="container">
-			<div class="row"> 
-				<div class="col-sm-6"> 
-					<p class="wow fadeInLeft delay-1s">Super Luna ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 wow fadeInRight">  
+					<h3 align="center" class="mr-5 ml-5 titu"  > 
+						¿Quienes Somos? 
+					</h3> 		
+					<p align="center" class="hcm" > AlsuveTech es un equipo conformado por dos jovenes ingenieros freelance enfocados en el diseño de páginas Web para ofrecer servicios personalizados de alta calidad de acuerdo a las necesidades de nuestros clientes.
+					</p> 
+					<p align="center" class="hcm"> Nuestra empresa ofrece tecnología HTML5 Animado y PHP en la página web, haciendo que su sitio en Internet sea mas dinámico y llamativo, distinto a los tradicionales sitios sin animación; todo esto junto a un estupendo diseño grafico.
 					</p> 
 				</div>
+			</div>
+		</div>
+	</div>    
 
-				<div class="col-sm-6"> 
-					<img src="img/codmin.jpg" width="450" height="160" class="d-inline-block align-top wow fadeInUp" alt="log"> 
+	<div class="pading hacemos"> 
+			<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<!-- ///////////////////QUE HACEMOS ///////////////////////////////////// -->
+
+		<div class="container fadeInUpBig" >
+		 	<div class="row justify-content-around"> 
+				<div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ml-4 wow fadeInUpBig" data-wow-delay="1s"> 
+					<div class="ih-item circle effect1b">
+						<a href="#info">
+	        				<div class="spinner"></div>
+	        				<div class="img">
+	        					<img class="mx-auto d-block" src="img/webd11.png" alt="img">
+	        				</div>
+	        				<div class="info">
+	         					 <div class="info-back">
+						           	<h3>Crea tu web</h3>
+						            <p>estilos personalizados</p>
+	          					</div>
+	        				</div>
+	        			</a>
+	        		</div>
+	        		<br>
+	        		<p align="center" class="hcm"> Crea junto a nosostros una web profesional avanzada para aumentar el prestigio de tu marca
+					</p>
+	    		</div>
+				
+			
+				<div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ml-4 wow fadeInUpBig" data-wow-delay="1.5s">
+					<div class="ih-item circle effect1c">
+						<a href="#info">
+	        				<div class="spinner"></div>
+	        				<div class="img">
+	        					<img class="mx-auto d-block" src="img/seo5.png" alt="img">
+	        				</div>
+	        				<div class="info">
+	         					 <div class="info-back">
+						           	<h3>Crea tu web</h3>
+						            <p>estilos personalizados</p>
+	          					</div>
+	        				</div>
+	        			</a>
+	        		</div>
+	        		<br>
+					<p align="center" class="hcm"> Aplicamos SEO a tu pagina para que tenga un posicionamiento y tu marca cresca efectivamente
+					</p>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ml-4 wow fadeInUpBig" data-wow-delay="2s">
+					<div class="ih-item circle effect1">
+						<a href="<?php print RUTA_CONTACTO?>">
+	        				<div class="spinner"></div>
+	        				<div class="img">
+	        					<img class="mx-auto d-block" src="img/contact3.png" alt="img">
+	        				</div>
+	        				<div class="info">
+	         					 <div class="info-back">
+						           	<h3>Crea tu web</h3>
+						            <p>estilos personalizados</p>
+	          					</div>
+	        				</div>
+	        			</a>
+	        		</div>
+	        		<br>
+					<p align="center" class="hcm"> Si no sabes como crear tu pagina nosotros te ayudamos, planteanos tus dudas!
+					</p>
+
 				</div>
 			</div>
-		 </div>
-	</div>   
-	<br> 
-	<br> 
-	<div class="portafolio" id="portafolio">
+		</div>
+	</div>    
+
+	<div class="portafolio" id="port">
+		<br>
+		<br>
+		<br>
 		<div class="container">
 			<div class="d-flex justify-content-center">
 				<div class="text-center">
@@ -99,7 +127,7 @@
 			<div class="d-flex justify-content-around">
 				<div class="row align-items-center">
 					<!--Primer-->
-					<div class="col-12 col-md-6">
+					<div class="col-12 col-md-6 mb-2 mt-2 wow fadeInRight">
 						<div class="btn01">
 							<img src="img/cod.jpg" >
 							<div class="ovrly"></div>
@@ -110,7 +138,7 @@
 						</div>
 					</div>
 					<!--Segundo-->
-					<div class="col-12 col-md-6">
+					<div class="col-12 col-md-6 mb-2 mt-2 wow fadeInRight" data-wow-delay="0.5s">
 						<div class="btn02">
 							<img src="img/plant.jpg" >
 							<div class="ovrly"></div>
@@ -126,7 +154,7 @@
 			<div class="d-flex justify-content-around">
 				<div class="row align-items-center">
 					<!--Tercero-->
-					<div class="col-12 col-md-4">
+					<div class="col-12 col-md-4 mb-2 mt-2 wow fadeInRight" data-wow-delay="1s">
 						<div class="btn03">
 							<img src="img/plant.jpg" >
 							<div class="ovrly"></div>
@@ -137,7 +165,7 @@
 						</div>
 					</div>
 					<!--Cuarto-->
-					<div class="col-12 col-md-4">
+					<div class="col-12 col-md-4 mb-2 mt-2 wow fadeInRight" data-wow-delay="1.5s">
 						<div class="btn04">
 							<img src="img/banner.jpg" class="img-fluid">
 							<div class="ovrly"></div>
@@ -148,7 +176,7 @@
 						</div>
 					</div>
 					<!--Quinto-->
-					<div class="col-12 col-md-4">
+					<div class="col-12 col-md-4 mb-2 mt-2 wow fadeInRight" data-wow-delay="2s">
 						<div class="btn05">
 							<img src="img/keyboard.jpg" class="img-fluid">
 							<div class="ovrly"></div>
@@ -357,6 +385,7 @@
 	</div>
 	<br>
 	<br>
+	<!--
 	<div id="contacto">
 		<div class="container wow fadeInUpBig">
 			<div class="row">
@@ -380,17 +409,9 @@
 			</div>
 		</div>
 	</div>
-
-	<footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2017-2018 Company Name</p>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-          <li class="list-inline-item"><a href="#">Privacy</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Support</a></li>
-        </ul>
-      </footer>
-	</div>
+-->
+	
 <?php
-	require_once('plantillas/doc-end.inc.php');
+require('plantillas/footer.inc.php');
+require('plantillas/doc-end.inc.php');
 ?>

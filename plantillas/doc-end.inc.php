@@ -3,6 +3,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="<?php print RUTA_JS?>wow.min.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js" integrity="sha384-z9ZOvGHHo21RqN5De4rfJMoAxYpaVoiYhuJXPyVmSs8yn20IE3PmBM534CffwSJI" crossorigin="anonymous"></script>
+	
 	<script>
 	      $(window).scroll(function() {
 	        if ($("#menu").offset().top > 56) {
@@ -12,6 +13,7 @@
 	        }
 	      });
 	</script>
+
 	<script type="text/javascript">
 		new WOW().init();
 	</script>
@@ -22,5 +24,6 @@
 		  	$(this).css("background", "pink");
 		});
 	</script>
+
 </body>
 </html>

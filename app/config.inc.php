@@ -7,7 +7,7 @@ define('NOMBRE_BD', 'blog');
 
 //rutas de la web
 define("SERVIDOR", "http://portafolio.test");
-define("RUTA_REGISTRO", SERVIDOR."/registro");
+define("RUTA_CONTACTO", SERVIDOR."/contactanos");
 define("RUTA_REGISTRO_CORRECTO", SERVIDOR."/registro-correcto");
 define("RUTA_LOGIN", SERVIDOR."/login");
 define("RUTA_LOGOUT", SERVIDOR."/logout");

@@ -1,0 +1,16 @@
+{
+    "name": "al-tech/portafolio",
+    "description": "Portafolio de prueba",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlsuveAr",
+            "email": "alsuve.uni@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

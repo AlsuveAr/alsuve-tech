@@ -1,15 +1,5 @@
 <?php
 include_once 'app/config.inc.php';
-include_once 'app/Conexion.inc.php';
-
-include_once 'app/Usuario.inc.php';
-include_once 'app/Entrada.inc.php';
-include_once 'app/Comentario.inc.php';
-
-include_once 'app/RepositorioUsuario.inc.php';
-include_once 'app/RepositorioEntrada.inc.php';
-include_once 'app/RepositorioComentario.inc.php';
-
 
 $componentes_url = parse_url($_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]);
 
@@ -26,8 +16,8 @@ if ($partes_ruta[0] == 'portafolio.test') {
 		$ruta_elegida = "vistas/home.php";
 	} else if (count($partes_ruta) == 2) {
 		switch ($partes_ruta[1]) {
-			case 'login';
-				$ruta_elegida = 'vistas/login.php';
+			case 'contactanos';
+				$ruta_elegida = 'vistas/contactanos.php';
 				break;
 			case 'logout';
 				$ruta_elegida = 'vistas/logout.php';

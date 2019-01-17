@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<?php
 		if (!isset($titulo) || empty($titulo)){
-			$titulo = 'Portafolio';
+			$titulo = 'Al-Tech';
 		}
 
 		echo "<title>$titulo</title>";
@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="<?php print RUTA_CSS?>estilo.css">
 	<link rel="stylesheet" type="text/css" href="<?php print RUTA_CSS?>animate.css">
+	<link rel="stylesheet" type="text/css" href="<?php print RUTA_CSS?>ihover.css">
 	<link href="<?php print RUTA_CSS?>hover.css" rel="stylesheet" media="all">
 </head>
 <body>
+	
